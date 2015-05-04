@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{AddOne} \PYGdefault{o}{:=} \PYGdefault{k}{function}\PYGdefault{p}{(}\PYGdefault{n+nv}{x}\PYGdefault{p}{)} \PYGdefault{k}{return} \PYGdefault{n+nv}{x}\PYGdefault{o}{+}\PYGdefault{n+nv}{1}\PYGdefault{o}{;} \PYGdefault{k}{end}\PYGdefault{o}{;}
+	\PYGdefault{k}{function}\PYGdefault{p}{(} \PYGdefault{n+nv}{x} \PYGdefault{p}{)} \PYGdefault{o}{...} \PYGdefault{k}{end}
+\end{Verbatim}

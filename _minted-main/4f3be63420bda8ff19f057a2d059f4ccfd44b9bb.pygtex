@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{G}\PYGdefault{o}{:=}\PYGdefault{n+nv}{AbelianGroup}\PYGdefault{p}{([}\PYGdefault{n+nv}{2}\PYGdefault{o}{,}\PYGdefault{n+nv}{4}\PYGdefault{o}{,}\PYGdefault{n+nv}{5}\PYGdefault{p}{])}\PYGdefault{o}{;}
+\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{n+nv}{fp} \PYGdefault{n+nv}{group} \PYGdefault{n+nv}{of} \PYGdefault{n+nv}{size} \PYGdefault{n+nv}{40} \PYGdefault{n+nv}{on} \PYGdefault{n+nv}{the} \PYGdefault{n+nv}{generators} \PYGdefault{p}{[} \PYGdefault{n+nv}{f1}\PYGdefault{o}{,} \PYGdefault{n+nv}{f2}\PYGdefault{o}{,} \PYGdefault{n+nv}{f3} \PYGdefault{p}{]}\PYGdefault{o}{\PYGdefaultZgt{}}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{gens}\PYGdefault{o}{:=} \PYGdefault{n+nv}{GeneratorsOfGroup}\PYGdefault{p}{(}\PYGdefault{n+nv}{G}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{p}{[} \PYGdefault{n+nv}{f1}\PYGdefault{o}{,} \PYGdefault{n+nv}{f2}\PYGdefault{o}{,} \PYGdefault{n+nv}{f3} \PYGdefault{p}{]}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{List}\PYGdefault{p}{(}\PYGdefault{n+nv}{gens}\PYGdefault{o}{,}\PYGdefault{n+nv}{Order}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{p}{[} \PYGdefault{n+nv}{2}\PYGdefault{o}{,} \PYGdefault{n+nv}{4}\PYGdefault{o}{,} \PYGdefault{n+nv}{5} \PYGdefault{p}{]}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{L}\PYGdefault{o}{:=}\PYGdefault{n+nv}{LatticeSubgroups}\PYGdefault{p}{(}\PYGdefault{n+nv}{G}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{DotFileLatticeSubgroups}\PYGdefault{p}{(}\PYGdefault{n+nv}{L}\PYGdefault{o}{,}\PYGdefault{l+s}{\PYGdefaultZdq{}tester.dot\PYGdefaultZdq{}}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\end{Verbatim}

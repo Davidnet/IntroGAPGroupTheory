@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefaultZdl{} \PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{n+nv}{TeachingMode}\PYGdefault{p}{(}\PYGdefault{n+no}{true}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{c+c1}{\PYGdefaultZsh{}I Teaching Mode is turned ON}
+\PYGdefaultZdl{} \PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}}\PYGdefault{n+nv}{8}\PYGdefault{o}{=}\PYGdefault{n+nv}{9}\PYGdefault{o}{;}
+\PYGdefault{n+no}{false}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{1}\PYGdefault{o}{\PYGdefaultZca{}}\PYGdefault{n+nv}{13} \PYGdefault{o}{+} \PYGdefault{n+nv}{12}\PYGdefault{o}{\PYGdefaultZca{}}\PYGdefault{n+nv}{3} \PYGdefault{o}{=} \PYGdefault{n+nv}{9}\PYGdefault{o}{\PYGdefaultZca{}}\PYGdefault{n+nv}{3} \PYGdefault{o}{+} \PYGdefault{n+nv}{10}\PYGdefault{o}{\PYGdefaultZca{}}\PYGdefault{n+nv}{3}\PYGdefault{o}{;}
+\PYGdefault{n+no}{true}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{FirstPerfectNumber} \PYGdefault{o}{:=} \PYGdefault{n+nv}{6}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{6}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{22}\PYGdefault{o}{+}\PYGdefault{n+nv}{FirstPerfectNumber}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{28}
+\end{Verbatim}

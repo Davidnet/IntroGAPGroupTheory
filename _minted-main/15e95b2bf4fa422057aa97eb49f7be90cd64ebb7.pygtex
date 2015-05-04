@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefaultZti{}\PYGdefault{n+nv}{\PYGdefaultZdl{} }mkdir ClassTutorial
+\PYGdefaultZti{}\PYGdefault{n+nv}{\PYGdefaultZdl{} }\PYGdefault{n+nb}{cd }ClassTutorial/
+\PYGdefaultZti{}/ClassTutorial\PYGdefault{n+nv}{\PYGdefaultZdl{} }gap
+┌───────┐   GAP, Version 4.7.5
+│  GAP  │   http://www.gap\PYGdefaultZhy{}system.org
+└───────┘   Architecture: x86\PYGdefaultZus{}64...
+Libs used:  gmp, readline
+Loading the library and packages ...
+Components: trans 1.0, prim 2.1, ...
+Packages:   Alnuth 3.0.0, AtlasRep 1.5.0 ...
+Try \PYGdefault{l+s+s1}{\PYGdefaultZsq{}?help\PYGdefaultZsq{}} \PYGdefault{k}{for} help.
+gap\PYGdefaultZgt{}
+\end{Verbatim}

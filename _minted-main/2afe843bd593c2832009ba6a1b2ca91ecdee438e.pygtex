@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{D3} \PYGdefault{o}{:=} \PYGdefault{n+nv}{DihedralGroup}\PYGdefault{p}{(}\PYGdefault{n+nv}{6}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{n+nv}{fp} \PYGdefault{n+nv}{group} \PYGdefault{n+nv}{of} \PYGdefault{n+nv}{size} \PYGdefault{n+nv}{6} \PYGdefault{n+nv}{on} \PYGdefault{n+nv}{the} \PYGdefault{n+nv}{generators} \PYGdefault{p}{[} \PYGdefault{n+nv}{r}\PYGdefault{o}{,} \PYGdefault{n+nv}{s} \PYGdefault{p}{]}\PYGdefault{o}{\PYGdefaultZgt{}}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{D4}\PYGdefault{o}{:=}\PYGdefault{n+nv}{DihedralGroup}\PYGdefault{p}{(}\PYGdefault{n+nv}{8}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{o}{\PYGdefaultZlt{}}\PYGdefault{n+nv}{fp} \PYGdefault{n+nv}{group} \PYGdefault{n+nv}{of} \PYGdefault{n+nv}{size} \PYGdefault{n+nv}{8} \PYGdefault{n+nv}{on} \PYGdefault{n+nv}{the} \PYGdefault{n+nv}{generators} \PYGdefault{p}{[} \PYGdefault{n+nv}{r}\PYGdefault{o}{,} \PYGdefault{n+nv}{s} \PYGdefault{p}{]}\PYGdefault{o}{\PYGdefaultZgt{}}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{List}\PYGdefault{p}{([}\PYGdefault{n+nv}{D3}\PYGdefault{o}{,}\PYGdefault{n+nv}{D4}\PYGdefault{p}{]}\PYGdefault{o}{,}\PYGdefault{n+nv}{x}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{n+nv}{IsSolvable}\PYGdefault{p}{(}\PYGdefault{n+nv}{x}\PYGdefault{p}{))}\PYGdefault{o}{;}
+\PYGdefault{p}{[} \PYGdefault{n+no}{true}\PYGdefault{o}{,} \PYGdefault{n+no}{true} \PYGdefault{p}{]}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{List}\PYGdefault{p}{([}\PYGdefault{n+nv}{D3}\PYGdefault{o}{,}\PYGdefault{n+nv}{D4}\PYGdefault{p}{]}\PYGdefault{o}{,}\PYGdefault{n+nv}{x}\PYGdefault{o}{\PYGdefaultZhy{}\PYGdefaultZgt{}}\PYGdefault{n+nv}{IsNilpotent}\PYGdefault{p}{(}\PYGdefault{n+nv}{x}\PYGdefault{p}{))}\PYGdefault{o}{;}
+\PYGdefault{p}{[} \PYGdefault{n+no}{false}\PYGdefault{o}{,} \PYGdefault{n+no}{true} \PYGdefault{p}{]}
+\end{Verbatim}

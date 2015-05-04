@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{D6}\PYGdefault{o}{:=}\PYGdefault{n+nv}{DihedralGroup}\PYGdefault{p}{(}\PYGdefault{n+nv}{IsPermGroup}\PYGdefault{o}{,}\PYGdefault{n+nv}{6}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{Group}\PYGdefault{p}{([} \PYGdefault{p}{(}\PYGdefault{n+nv}{1}\PYGdefault{o}{,}\PYGdefault{n+nv}{2}\PYGdefault{o}{,}\PYGdefault{n+nv}{3}\PYGdefault{p}{)}\PYGdefault{o}{,} \PYGdefault{p}{(}\PYGdefault{n+nv}{2}\PYGdefault{o}{,}\PYGdefault{n+nv}{3}\PYGdefault{p}{)} \PYGdefault{p}{])}
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{AllSubgroups}\PYGdefault{p}{(}\PYGdefault{n+nv}{D6}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{p}{[} \PYGdefault{n+nv}{Group}\PYGdefault{p}{(())}\PYGdefault{o}{,} \PYGdefault{n+nv}{Group}\PYGdefault{p}{([} \PYGdefault{p}{(}\PYGdefault{n+nv}{2}\PYGdefault{o}{,}\PYGdefault{n+nv}{3}\PYGdefault{p}{)} \PYGdefault{p}{])}\PYGdefault{o}{,} \PYGdefault{n+nv}{Group}\PYGdefault{p}{([} \PYGdefault{p}{(}\PYGdefault{n+nv}{1}\PYGdefault{o}{,}\PYGdefault{n+nv}{2}\PYGdefault{p}{)} \PYGdefault{p}{])}\PYGdefault{o}{,}
+ \PYGdefault{n+nv}{Group}\PYGdefault{p}{([} \PYGdefault{p}{(}\PYGdefault{n+nv}{1}\PYGdefault{o}{,}\PYGdefault{n+nv}{3}\PYGdefault{p}{)} \PYGdefault{p}{])}\PYGdefault{o}{,}
+ \PYGdefault{n+nv}{Group}\PYGdefault{p}{([} \PYGdefault{p}{(}\PYGdefault{n+nv}{1}\PYGdefault{o}{,}\PYGdefault{n+nv}{2}\PYGdefault{o}{,}\PYGdefault{n+nv}{3}\PYGdefault{p}{)} \PYGdefault{p}{])}\PYGdefault{o}{,}
+ \PYGdefault{n+nv}{Group}\PYGdefault{p}{([} \PYGdefault{p}{(}\PYGdefault{n+nv}{1}\PYGdefault{o}{,}\PYGdefault{n+nv}{2}\PYGdefault{o}{,}\PYGdefault{n+nv}{3}\PYGdefault{p}{)}\PYGdefault{o}{,} \PYGdefault{p}{(}\PYGdefault{n+nv}{2}\PYGdefault{o}{,}\PYGdefault{n+nv}{3}\PYGdefault{p}{)} \PYGdefault{p}{])} \PYGdefault{p}{]}
+\end{Verbatim}
