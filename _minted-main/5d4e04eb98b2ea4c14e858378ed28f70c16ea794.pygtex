@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+nv}{M} \PYGdefault{o}{:=} \PYGdefault{p}{[[}\PYGdefault{n+nv}{9}\PYGdefault{o}{,}\PYGdefault{n+nv}{15}\PYGdefault{p}{]}\PYGdefault{o}{,}\PYGdefault{p}{[}\PYGdefault{n+nv}{19}\PYGdefault{o}{,}\PYGdefault{n+nv}{2}\PYGdefault{p}{]]}\PYGdefault{o}{*}\PYGdefault{n+nv}{One}\PYGdefault{p}{(}\PYGdefault{n+nv}{im}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{p1}\PYGdefault{o}{:=}\PYGdefault{p}{[}\PYGdefault{n+nv}{4}\PYGdefault{o}{,}\PYGdefault{n+nv}{1}\PYGdefault{p}{]}\PYGdefault{o}{*}\PYGdefault{n+nv}{One}\PYGdefault{p}{(}\PYGdefault{n+nv}{im}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{p2}\PYGdefault{o}{:=}\PYGdefault{p}{[}\PYGdefault{n+nv}{5}\PYGdefault{o}{,}\PYGdefault{n+nv}{18}\PYGdefault{p}{]}\PYGdefault{o}{*}\PYGdefault{n+nv}{One}\PYGdefault{p}{(}\PYGdefault{n+nv}{im}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{Inverse}\PYGdefault{p}{(}\PYGdefault{n+nv}{M}\PYGdefault{p}{)}\PYGdefault{o}{*}\PYGdefault{n+nv}{p1}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{Descipher}\PYGdefault{o}{:=}\PYGdefault{p}{[[}\PYGdefault{n+nv}{1}\PYGdefault{o}{,}\PYGdefault{n+nv}{17}\PYGdefault{p}{]}\PYGdefault{o}{,}\PYGdefault{p}{[}\PYGdefault{n+nv}{0}\PYGdefault{o}{,}\PYGdefault{n+nv}{9}\PYGdefault{p}{]]}\PYGdefault{o}{*}\PYGdefault{n+nv}{One}\PYGdefault{p}{(}\PYGdefault{n+nv}{im}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\end{Verbatim}

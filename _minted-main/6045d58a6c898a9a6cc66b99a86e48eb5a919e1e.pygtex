@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{n+nv}{gap}\PYGdefault{o}{\PYGdefaultZgt{}} \PYGdefault{n+nv}{Factorization}\PYGdefault{p}{(}\PYGdefault{n+nv}{cube}\PYGdefault{o}{,}\PYGdefault{n+nv}{move}\PYGdefault{p}{)}\PYGdefault{o}{;}
+\PYGdefault{n+nv}{T}\PYGdefault{o}{*}\PYGdefault{n+nv}{F}\PYGdefault{o}{*}\PYGdefault{n+nv}{L}\PYGdefault{o}{*}\PYGdefault{n+nv}{T}\PYGdefault{o}{*}\PYGdefault{n+nv}{F}\PYGdefault{o}{*}\PYGdefault{n+nv}{T}
+\end{Verbatim}

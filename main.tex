@@ -360,9 +360,41 @@ So we will transmit the following:
 	
 \end{frame}
 
-\begin{frame}
-	Solution to Problem using Gap
+\begin{frame}[fragile]
+\begin{minted}{gap}
+M := [[9,15],[19,2]]*One(im);
+p1:=[4,1]*One(im);
+p2:=[5,18]*One(im);
+Inverse(M)*p1;
+Descipher:=[[1,17],[0,9]]*One(im);
+\end{minted}
+We end up with the matrix:
+\[ A^{-1} = \begin{pmatrix}
+1 & 17 \\
+0 & 9
+\end{pmatrix} \]
 \end{frame}
+
+
+	
+\begin{frame}
+	\begin{columns}[T] % align columns
+		\begin{column}{.48\textwidth}
+			\color{red}\rule{\linewidth}{4pt}
+			\begin{figure}
+				\includegraphics[scale=0.5]{HillBreak}
+			\end{figure}
+		\end{column}%
+		\hfill%
+		\begin{column}{.48\textwidth}
+			\color{blue}\rule{\linewidth}{4pt}
+			Finally we construct the message from the plaintext pairs:
+			
+			DEAR IKE SEND TANKS.
+		\end{column}%
+	\end{columns}
+\end{frame}
+
 \LogoOn
 \begin{frame}[fragile]
 	\frametitle{Advanced Group Theory}
@@ -529,6 +561,74 @@ dot -Teps tester.dot > output.eps
 	\end{columns}
 \end{frame}
 
+\begin{frame}[fragile]
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.5]{Rubik}
+		\caption{Rubik facelets}
+	\end{figure}
+\end{frame}
 
 
-\end{document}
+\begin{frame}[fragile]
+	We now assume that we will ﬁx the bottom right corner (i.e. the corner labelled with $16/19/24$) in
+	space – this is to make up for rotations of the whole cube in space. We therefore need to consider
+	only three rotations, front, top and left. The coresponding permutations are (for clockwise rotation
+	when looking at the face):
+\begin{minted}{gap}
+gap> top:=(1,2,4,3)(5,17,13,9)(6,18,14,10);;
+gap> left:=(1,9,21,20)(5,6,8,7)(3,11,23,18);;
+gap> front:=(3,13,22,8)(4,15,21,6)(9,10,12,11);;
+gap> cube:=Group(top,left,front);
+Group([(1,2,4,3)(5,17,13,9)(6,18,14,10),(1,9,21,20)(3,11,23,18)(5,6,8,7),
+(3,13,22,8)(4,15,21,6)(9,10,12,11) ])
+gap> Order(cube);
+3674160
+\end{minted}
+\end{frame}
+
+\begin{frame}[fragile]
+	By deﬁning a suitable mapping ﬁrst (for the time being consider this command as a black box) we
+	can choose nicer names – T, L and F – for the generators:
+\begin{minted}{gap}
+gap> map:=EpimorphismFromFreeGroup(cube:names:=["T","L","F"]);
+[ T, L, F ] -> [ (1,2,4,3)(5,17,13,9)(6,18,14,10),
+(1,9,21,20)(3,11,23,18)(5,6,8,7), (3,13,22,8)(4,15,21,6)(9,10,12,11) ]
+\end{minted}
+	We now can use the command Factorization to express permutations in the group as word in
+	generators. The reverse sequence of the inverse operations therefore will turn the cube back to its
+	original shape.
+\end{frame}
+\LogoOff
+\begin{frame}[fragile]
+	\frametitle{How we can use GAP to solve puzzles?}
+	\framesubtitle{Solving the $ 2 \times 2 \times 2 $ Rubiks cube}
+	\begin{columns}[T] % align columns
+		\begin{column}{.48\textwidth}
+			\color{red}\rule{\linewidth}{4pt}
+			\begin{figure}
+				\includegraphics[scale=0.4]{Rubik2}
+			\end{figure}
+		\end{column}%
+		\hfill%
+		\begin{column}{.48\textwidth}
+			\color{blue}\rule{\linewidth}{4pt}
+			\centering This corresponds to the permutation.
+			\begin{minted}{gap}
+gap> move:=(1,15,20,4,6,2,21)
+(3,17,8,5,22,7,13)
+(9,14,11,18,12,23,10)
+			\end{minted}
+			 We express
+			 this permutation as word in the generators:
+			 \begin{minted}{gap}
+gap> Factorization(cube,move);
+T*F*L*T*F*T
+			 \end{minted}
+			 We can thus bring the cube back to its original position by turning each counterclockwise top,front,top,left,front,top.
+		\end{column}%
+	\end{columns}
+\end{frame}
+
+
+\end{document}	
